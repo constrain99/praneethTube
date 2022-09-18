@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const port = 3000;
-const apiKey = "AIzaSyANdcbrTjx5ryb6_DK9dJT749cySbJradA";
+const apiKey = "ur api key here";
 const apiUrl = "https://www.googleapis.com/youtube/v3";
 
 const express = require("express");
