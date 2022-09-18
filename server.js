@@ -30,13 +30,11 @@ app.post("/", async function (req, res) {
 
   videoIDs = response.data.items.map((item) => item.id.videoId);
 
-  console.log(typeof videoIDs);
-  console.log(videoIDs[0]);
+  console.log(videoIDs);
+  
  
 });
-app.get("/search", function (req, res) {
-	res.sendFile(__dirname + "/video.html");
-  });
+
 
 app.listen(3000, function () {
   console.log("server is running on port 3000");
